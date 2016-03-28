@@ -1,7 +1,7 @@
 ﻿/// <binding AfterBuild='build' Clean='clean' />
 var gulp = require('gulp');
 var tsc = require('gulp-typescript');
-var tsProject = tsc.createProject('client/tsconfig.json');
+var tsProject = tsc.createProject('tsconfig.json');
 var sourcemaps = require('gulp-sourcemaps');
 var config = require('./gulp.config')();
 var del = require('del');

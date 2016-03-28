@@ -1,9 +1,9 @@
 ﻿module.exports = function () {
     var config = {
-        allTs: './client/app/**/*.ts',
-        typings: './client/app/typings/**/*.d.ts',
+        allTs: './app/**/*.ts',
+        typings: './app/typings/**/*.d.ts',
         distDir: './wwwroot',
-        indexFile: './client/index.html',
+        indexFile: './index.html',
         angularLibraries: [
 			'./node_modules/es6-shim/es6-shim.min.js',
 			'./node_modules/es6-shim/es6-shim.map',
